@@ -1,0 +1,50 @@
+# .gitignore for Alpaca project
+
+# Environment files with sensitive data
+.env
+.envBackup
+how
+accounts.doc
+new_acct.py
+new_acct.py.ckpt
+MFA
+order.py
+positions.py
+getpos_wilresrch1.bsh
+tt.py
+options.py.ckpt
+getallOptionsforSPY.py
+getallOptionsforSPY.py.ckpt
+getSPYmonth.py
+options.py
+optorder.py.ckpt
+getOptions2.py
+getOptions2.py.ckpt
+newsBatch.py
+newsBatch.py.ckpt
+optorder.py
+livenews_pg.py
+stock_rtQte.py
+runLivenews.bsh
+livenews_pg.py.ckpt
+livenews.py.ckpt
+
+
+# Docker-related files and directories
+docker-compose.yml
+.docker/
+
+
+# Python virtual environments
+venv/
+
+# System and IDE files
+*.log
+*.swp
+*.bak
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+
