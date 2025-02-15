@@ -21,12 +21,7 @@ Edit .env and replace API_KEY & SECRET_KEY
 # Step 4: Start PostgreSQL with TimescaleDB
 Run the PostgreSQL container with TimescaleDB support: ( does this as one long line!!)
 
-docker run -d --name alpaca-db \
-  -p 5432:5432 \
-  -e POSTGRES_USER=alpaca \
-  -e POSTGRES_PASSWORD=alpaca_pass \
-  -e POSTGRES_DB=alpaca_news \
-  timescale/timescaledb:latest-pg15
+docker run -d --name alpaca-db  -p 5432:5432 -e POSTGRES_USER=alpaca -e POSTGRES_PASSWORD=alpaca_pass -e POSTGRES_DB=alpaca_news timescale/timescaledb:latest-pg15
   
 # Check if it's running:
 
