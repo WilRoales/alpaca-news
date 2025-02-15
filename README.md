@@ -29,17 +29,15 @@ docker ps
 
 # Step 5: Start up Alpaca News Script
 
-docker run -d --name alpaca-news \
-  --env-file .env \
-  --network="host" \
-  william61/alpaca-news:latest
+docker run -d --name alpaca-news --env-file .env --network="host" william61/alpaca-news:latest
   
 # Step 6: Verify It’s Working
 
-Check logs for news streaming:sudo docker exec -it alpaca-db psql -U alpaca -d alpaca_news
+Check logs for news streaming:
 
+sudo docker exec -it alpaca-db psql -U alpaca -d alpaca_news
 
-docker logs -f alpaca-news
+sudo docker logs -f alpaca-news
 
 # Step 8: (Optional) Restart Services
 If needed:
