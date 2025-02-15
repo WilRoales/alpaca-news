@@ -42,7 +42,8 @@ docker run -d --name alpaca-news \
   
 # Step 6: Verify It’s Working
 
-Check logs for news streaming:
+Check logs for news streaming:sudo docker exec -it alpaca-db psql -U alpaca -d alpaca_news
+
 
 docker logs -f alpaca-news
 
@@ -51,4 +52,11 @@ If needed:
 
 docker restart alpaca-db
 docker restart alpaca-news
+
+# see data 
+
+sudo docker exec -it alpaca-db psql -U alpaca -d alpaca_news
+
+
+
 
