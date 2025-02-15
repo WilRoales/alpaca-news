@@ -3,8 +3,7 @@
 This project collects and stores real-time news updates from Alpaca in a PostgreSQL database.
 
 ## Getting Started
-git clone https://github.com/WilRoales/alpaca.git
-cd alpaca🚀 Alpaca News Service Setup Guide
+
 # Step 1: Create a Free Alpaca Paper Trading Account
 To access live market data and news, you'll need an Alpaca API key.
 Sign up for a free paper trading account at Alpaca.
