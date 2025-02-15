@@ -19,7 +19,7 @@ Copy  .env.example_4_Docker to .env and update it with your Alpaca API keys.
 Edit .env and replace API_KEY & SECRET_KEY
 
 # Step 4: Start PostgreSQL with TimescaleDB
-Run the PostgreSQL container with TimescaleDB support:
+Run the PostgreSQL container with TimescaleDB support: ( does this as one long line!!)
 
 docker run -d --name alpaca-db \
   -p 5432:5432 \
