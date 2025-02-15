@@ -14,7 +14,7 @@ Save your API Key and Secret Key (you'll need these in Step 2).
 git clone https://github.com/WilRoales/alpaca-news.git
 cd alpaca-news
 # Step 3: Create a .env File
-Copy .env.example to .env and update it with your Alpaca API keys and database credentials.
+Copy  .env.example_4_Docker to .env and update it with your Alpaca API keys and database credentials.
 
 cp .env.example .env
 nano .env  # Edit and replace API_KEY & SECRET_KEY
