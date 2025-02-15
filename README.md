@@ -16,8 +16,8 @@ cd alpaca-news
 # Step 3: Create a .env File
 Copy  .env.example_4_Docker to .env and update it with your Alpaca API keys and database credentials.
 
-cp .env.example .env
-nano .env  # Edit and replace API_KEY & SECRET_KEY
+Edit .env and replace API_KEY & SECRET_KEY
+
 # Step 4: Start PostgreSQL with TimescaleDB
 Run the PostgreSQL container with TimescaleDB support:
 
