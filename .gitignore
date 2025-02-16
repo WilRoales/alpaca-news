@@ -48,3 +48,5 @@ venv/
 # Temporary files
 *.tmp
 
+github_doc
+github_token
